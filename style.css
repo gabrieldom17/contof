@@ -1,4 +1,28 @@
-html {
-  height: 100%;
-  width: 100%;
+.button {
+  background-color: #4CAF50; /* Cor de fundo */
+  border: none; /* Sem borda */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: inline-block; /* Display inline-block */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margens */
+  cursor: pointer; /* Cursor de ponteiro */
+  border-radius: 0; /* Sem borda arredondada */
+  width: 100%; /* Largura total */
+  height: 50px; /* Altura do botão */
+  border-radius: 25px; /* Bordas arredondadas */
+
+}
+
+/* Estilo do texto centralizado */
+.button span {
+  display: block;
+  line-height: 50px; /* Igualar a altura do botão para centralizar verticalmente */
+}
+
+.button span {
+    display: block;
+    line-height: 50px; /* Igualar a altura do botão para centralizar verticalmente */
 }
